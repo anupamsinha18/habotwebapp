@@ -1,0 +1,380 @@
+/* Mainpage.css */
+.main-page {
+    width: 100vw;
+    display: flex;
+    height: 609px;
+  }
+  
+  .image-container {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #072F5773 45%, #072F57BF 75%);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(7, 47, 87, 0.45);
+    padding: 20px; /* Add padding for responsiveness */
+  }
+  
+  .overlay-text1 {
+    color: white;
+    font-size: 3em;
+  
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .overlay-text2 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-fields {
+    display: flex;
+    width: auto;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-icon {
+    position: absolute;
+    left: 15px; /* Adjust to position the icon properly */
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+   /* Adjust color as needed */
+  }
+  
+  
+  
+.search-input1, .search-input2 {
+  padding: 0 155px 0 65px; /* Adjust padding to make space for the SVG */
+  height: 56px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-button {
+  padding: 0 30px;
+  height: 56px;
+  font-size: 1em;
+  color: white;
+  background-color: #00732F;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+  .search-button:hover {
+    background-color: darkblue;
+  }
+  
+  .bottom-text {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .areubuyer {
+    margin-bottom: 20px;
+  }
+  
+  .click-onthelink {
+    text-decoration: underline;
+  }
+  .ourlocation{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .ready-to-dive{
+    width: 50%;
+    
+    align-items: flex-start;
+  }
+  .habot-ready{
+    padding: 0 0 20px 0;
+font-size: 3rem;
+
+  }
+  .signuptoday{
+    font-size: 1.4rem;
+    padding:10px 40px 10px 40px;
+    display: flex;
+    border-radius: 3px;
+    margin-bottom: 20px;
+width: 50%;
+    border: 2px;
+    gap: 40px;
+    color: white;
+    background-color: #00732F;
+    border-color: #00732F;
+  }
+
+.arrow svg{
+  width: 30px;
+  height: auto;
+fill: white;
+}
+  .story{
+    font-size: 1rem;
+    padding: 0 15px 20px 0;
+
+  }.location-box {
+    width: 50%;
+  }
+  
+  .locationss {
+    margin-left: 20%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-top: 20px; */
+    gap: 20px;
+  }
+  
+  .location {
+    color: #072f57;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    border: 2px solid #E7760D; /* This line correctly defines the border */
+    /* font-weight: bold; */
+    font-size: 1.1rem;
+  }
+  .video-box {
+    padding:0 100px 50px 100px;
+  }
+  
+  .box- {
+    width: 100%;
+    height: 652px;
+   padding: 50px;
+    background-color: #072f57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+  }
+  
+  .video-container {
+    padding: 30px;
+    flex: 1;
+    width: 50%;
+    height: 400px;
+  }
+  
+  .text-container {
+    flex:1;
+    margin-left: 50px;
+    width: 50%;
+    padding: 50px;
+    color: white;
+  }
+  
+  .tab {
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 2rem;
+
+    padding: 50px;
+  }
+  
+  .tab.active {
+    text-decoration: underline 3px #EB7150;
+  }
+  
+  ul {
+   
+    list-style-type: disc;
+    margin-left: 5px;
+
+  }
+  .tab.active li{
+    padding: 20px;
+  }
+ 
+  .Supplier{
+    width: 100%;
+    height: 252px;
+    background-color: #E8FBFF;
+  }
+  .inside-content{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .findu{
+    font-size: 2rem;
+  }
+  u{
+  text-decoration:underline 3px #EB7150;
+  }
+  .verified- {
+    padding: 10px 40px 10px 40px;
+    border: 2px;
+    background-color: #EB7150;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 800px) {
+    .overlay-text1, .overlay-text2 {
+      font-size: 2em;
+  }
+  
+  .search-fields {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .search-input1, .search-input2, .search-button {
+      width: auto;
+      padding: 10px 50px 10px 50px;
+  }
+  
+  .bottom-text {
+      display: flex;
+      flex-direction: column;
+  }
+
+  /* Responsive styles for the provided section */
+  .ourlocation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .ready-to-dive {
+    width: 100%;
+
+  }
+
+  .habot-ready {
+      font-size: 2rem;
+      padding-bottom: 10px;
+  }
+
+  .story {
+      font-size: 1rem;
+      padding: 0 10px 20px 10px;
+  }
+
+  .signuptoday {
+      width: 100%;
+      font-size: 1.2rem;
+      padding: 10px 20px;
+      justify-content: space-evenly;
+      gap: 20px;
+  }
+
+  .location-box {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .locationss {
+      margin-left: 0;
+      grid-template-columns: 1fr;
+      gap: 10px;
+  }
+
+  .location {
+      font-size: 1rem;
+      padding: 10px;
+  }
+.box-{
+  width: 100%;
+}
+.video-box {
+  padding: 0 20px 10px 20px;
+}
+
+.box- {
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+}
+
+.flex-container {
+  flex-direction: column;
+  padding: 20px;
+}
+
+.video-container,
+.text-container {
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  height: auto;
+}
+
+.tab {
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+li {
+  padding: 10px;
+}
+.inside-content {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.findu {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.verified- {
+  padding: 8px 20px;
+}
+
+
+}

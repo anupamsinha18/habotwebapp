@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .hidden {
+      display: none;
+    }
+    .block {
+      display: block;
+    }
+    .md\\:flex {
+      display: none;
+    }
+  }
